@@ -34,10 +34,6 @@ chilibot = [ "@ChiliBot теперь плати мне мой выигрыш", "
 
 ver = [ "!ver", "!version", "!вер", "!версия" ]
 
-discord = [ "!ds", "!discord", "!дс", "!дискорд" ]
-
-info = [ "!info"'']
-
 
 
 PREFIX = '.'
@@ -86,7 +82,7 @@ async def on_message( message ):
 
     if msg == "!help":
         author = message.author
-        await message.channel.send( f"{ author.mention } ```Наши команды:\n !owners\n !Vk\n !Date\n !ver\n Наши игры: !games\n Игра нашего друга: !game\n Также с нашим ботом можно пообщаться.``` " )
+        await message.channel.send( f"{ author.mention } ```Наши команды:\n !owners\n !Vk\n !Date\n !ver\n Наши игры: !games\n Также с нашим ботом можно пообщаться.``` " )
 
     if msg == "!owners":
         author = message.author
@@ -138,26 +134,17 @@ async def on_message( message ):
         time.sleep(2)
         await message.channel.send( random.choice(casino) )
 
-    if msg in chilibot
+    if msg on chilibot
         author = message.author
         await message.channel.send( f' { author.mention } ```У бомжа Васи выигрышь свой проси иди```' )
 
-    if msg in ver
+    if msg on ver
         author = message.author
-        await message.channel.send( f' { author.mention } ```История версий:\nВерсия 0.0.1:\n Добавлены базовые команды(общение с ботом)\n Версия 0.0.2:\n Добавлено пара обычных команд(таких как !help, !owners, !Vk)\n Версия 0.0.3\n Добавлена игра !knb\n Версия 0.0.4:\n Добавлена команда !games которая показывает список мини-игр бота\n Версия 0.0.5\n Добавлена игра !gadalka которая пытается отгадать число которое ты загадал\n Версия 0.0.6\n Добавлена игра !casino\n Новейшая версия:\nВерсия 0.0.7\n Добавлена команда !ver\n 0.0.8 Обновление которое добавило пару мини вещичек(найти самим)```' )
+        await message.channel.send( f' { author.mention } ```История версий:\nВерсия 0.0.1:\n Добавлены базовые команды(общение с ботом)\n Версия 0.0.2:\n Добавлено пара обычных команд(таких как !help, !owners, !Vk)\n Версия 0.0.3\n Добавлена игра !knb\n Версия 0.0.4:\n Добавлена команда !games которая показывает список мини-игр бота\n Версия 0.0.5\n Добавлена игра !gadalka которая пытается отгадать число которое ты загадал\n Версия 0.0.6\n Добавлена игра !casino\n Новейшая версия:\nВерсия 0.0.7\n Добавлена команда !ver```' )
 
     if msg in data:
         author = message.author
         await message.channel.send( f' { author.mention } ```Дата появления нашего бота: 28 декабря.\n Написан на языке: Python.```' )
-
-    if msg == !game
-        author = message.author
-        await messgae.channel.send( f' { author.mention } ```Игра в которую мы рекомендуем поиграть каждому:\n https://play.google.com/store/apps/details?id=com.LastBone.MarshmallowCombat```')
-
-    if msg in discord
-        author = message.author
-        await messgae.channel.send( f' { author.mention } ```Ссылка на добавление бота:\n https://discord.com/api/oauth2/authorize?client_id=793351435265376267&permissions=8&scope=bot```') 
-
 
 
 token = "NzkzMzUxNDM1MjY1Mzc2MjY3.X-rAGQ._Xoon7IxsZ7PQ4xo1QzzAn742Cs"
