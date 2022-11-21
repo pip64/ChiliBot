@@ -134,11 +134,11 @@ async def on_message( message ):
         time.sleep(2)
         await message.channel.send( random.choice(casino) )
 
-    if msg on chilibot
+    if msg in chilibot
         author = message.author
         await message.channel.send( f' { author.mention } ```У бомжа Васи выигрышь свой проси иди```' )
 
-    if msg on ver
+    if msg in ver
         author = message.author
         await message.channel.send( f' { author.mention } ```История версий:\nВерсия 0.0.1:\n Добавлены базовые команды(общение с ботом)\n Версия 0.0.2:\n Добавлено пара обычных команд(таких как !help, !owners, !Vk)\n Версия 0.0.3\n Добавлена игра !knb\n Версия 0.0.4:\n Добавлена команда !games которая показывает список мини-игр бота\n Версия 0.0.5\n Добавлена игра !gadalka которая пытается отгадать число которое ты загадал\n Версия 0.0.6\n Добавлена игра !casino\n Новейшая версия:\nВерсия 0.0.7\n Добавлена команда !ver```' )
 
