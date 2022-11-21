@@ -147,5 +147,5 @@ async def on_message( message ):
         await message.channel.send( f' { author.mention } ```Дата появления нашего бота: 28 декабря.\n Написан на языке: Python.```' )
 
 
-token = "NzkzMzUxNDM1MjY1Mzc2MjY3.X-rAGQ._Xoon7IxsZ7PQ4xo1QzzAn742Cs"
+token = ""
 client.run( token )
